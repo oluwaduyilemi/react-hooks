@@ -1,12 +1,17 @@
 import './App.css'
-import Data from './components/data'
+import Usestatedata from './components/data'
+import Array from './components/Array'
+import UseObject from './components/UseObject'
+import Usenumber from './components/Usenumber'
 
 function App() {
 
-
   return (
     <>
-      <Data/>
+      <Usestatedata/>
+      <Array/>
+      <UseObject />
+      <Usenumber/>
     </>
   )
 }

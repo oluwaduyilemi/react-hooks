@@ -318,3 +318,8 @@ p {
   text-transform: capitalize;
   cursor: pointer;
 }
+h6{
+  padding: 30px;
+  color: red;
+  font-size: 16px;
+}

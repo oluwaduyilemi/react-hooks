@@ -1,43 +1,23 @@
-// import { useState } from "react";
+import { useState } from "react";
 
-// const Data = () => {
-//   const [text, settext] = useState("Random Title")
-//   const handleClick = () => {
-//     settext("Hello world")
-//   }
-//     return(
-//           <>
-//               <h1>{text}</h1>
-//               <button onClick={handleClick}>change title</button>
-//           </>
-//     )
-// };
-
-// export default Data;
-
-import React, { useState } from 'react';
-
-
-const UseStateBasics = () => {
-
-
-  const [text, setText] = useState('random title');
+const Data = () => {
+  const [text, setText] = useState("Random Title")
   const handleClick = () => {
-    if (text === 'random title') {
+        if (text === 'random title') {
       setText('hello world');
     } else {
       setText('random title');
     }
-  };
-
-  return (
-    <React.Fragment>
-      <h1>{text}</h1>
-      <button type='button' className='btn' onClick={handleClick}>
-        change title
-      </button>
-    </React.Fragment>
-  );
+  }
+    return(
+          <>
+            <h6>Ass 1</h6>
+              <h1>{text}</h1>
+              <button type='button' className='btn' onClick={handleClick}>change title</button>
+          </>
+    )
 };
 
-export default UseStateBasics;
+export default Data;
+
+
